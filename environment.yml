@@ -13,6 +13,7 @@ dependencies:
   - opencv=4.5.3
   - pip:
     - python-docx==0.8.11
+    - PyYAML
     - numpy==1.19.5
     - streamlit==1.2.0
     - scikit-image
