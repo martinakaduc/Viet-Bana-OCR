@@ -11,8 +11,8 @@ dependencies:
   - torchvision=0.9.2=py37_cpu
   - pytesseract=0.3.8
   - opencv=4.5.3
-  - python-docx==0.8.11
   - pip:
+    - python-docx==0.8.11
     - numpy==1.19.5
     - streamlit==1.2.0
     - scikit-image

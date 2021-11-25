@@ -2,3 +2,4 @@ tesseract-ocr
 tesseract-ocr-vie
 tesseract-ocr-script-viet
 libgl1-mesa-glx
+yaml
