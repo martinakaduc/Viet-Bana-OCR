@@ -11,7 +11,7 @@ if __name__ == '__main__':
     st.title('Multi-Language OCR System')
     st.write('This system takes input of a document image and gives you the texts in that document.')
 
-    selected_models = st.selectbox('Select language', options=["Bahnaric", "Vietnamese"])
+    selected_models = st.selectbox('Select language', options=["Bahnaric", "Vietnamese", "Vietnamese-2 column"])
     ocr_img = st.file_uploader('Upload an image',  accept_multiple_files=False, type=['png', 'jpg'])
 
     if st.button('Go Go Go'):

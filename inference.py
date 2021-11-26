@@ -27,7 +27,7 @@ def get_result(language, list_images):
     try:
         list_result_files = []
 
-        if language == "Bahnaric":
+        if language == "Bahnaric" or language == "Vietnamese":
             # Copy data
             for image in list_images:
                 shutil.copy(os.path.join("upload_files", image), os.path.join("BanaOCR/input", image))
@@ -49,7 +49,7 @@ def get_result(language, list_images):
             if len(list_images) != len(list_result_files):
                 return False, []
 
-        elif language == "Vietnamese":
+        elif language == "Vietnamese-2 column":
             # Copy data
             for image in list_images:
                 shutil.copy(os.path.join("upload_files", image), os.path.join("VietOCR/images/001", image))
