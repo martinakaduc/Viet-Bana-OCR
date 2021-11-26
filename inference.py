@@ -15,7 +15,8 @@ vietnamese_script = [
 
 script_by_lang = {
     "Bahnaric": bahnar_script,
-    "Vietnamese": vietnamese_script
+    "Vietnamese": bahnar_script,
+    "Vietnamese-2 column": vietnamese_script
 }
 
 def remove_files(folder, ext=None):
